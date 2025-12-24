@@ -13,9 +13,9 @@
 ## Screenshots
 
 <p>
-  <img src="assets/screenshots/mobile.png" width="300" />
+  <img src="web/screenshots/mobile.png" width="300" />
 </p>
 
 <p>
-  <img src="assets/screenshots/web.png" width="800" />
+  <img src="web/screenshots/desktop.png" width="800" />
 </p>
