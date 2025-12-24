@@ -12,7 +12,10 @@
 
 ## Screenshots
 
-<p align="left">
-  <img src="web/screenshots/mobile.png" width="250" />
-  <img src="web/screenshots/desktop.png" width="250" />
+<p>
+  <img src="assets/screenshots/mobile.png" width="300" />
+</p>
+
+<p>
+  <img src="assets/screenshots/web.png" width="800" />
 </p>
