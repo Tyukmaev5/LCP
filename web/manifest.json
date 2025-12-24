@@ -1,0 +1,73 @@
+{
+    "name": "Logistic Links",
+    "short_name": "LogiLinks",
+    "start_url": "./index.html",
+    "scope": "./index.html",
+    "display": "standalone",
+    "background_color": "#f7a708",
+    "theme_color": "#f7a708",
+    "description": "Основные ссылки для логистики",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-1024.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Открыть EWM",
+            "short_name": "EWM",
+            "description": "Открытие сайта EWM",
+            "url": "https://sdlogisticlinks.web.app/",
+            "icons": [
+                {
+                    "src": "/icons/ewm-100.png",
+                    "sizes": "100x100"
+                }
+            ]
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "screenshots/desktop.png",
+            "type": "image/png",
+            "sizes": "2940x1912",
+            "form_factor": "wide"
+        },
+        {
+            "src": "screenshots/mobile.png",
+            "type": "image/png",
+            "sizes": "814x1674",
+            "form_factor": "narrow"
+        }
+    ]
+}

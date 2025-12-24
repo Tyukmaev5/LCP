@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <title>Logistic Links</title>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="SD Logistic Links">
+  <meta name="theme-color" content="#f7a708">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1" />
+
+  <meta name="og:title" content="Строительный Двор" />
+  <meta name="og:type" content="website" />
+  <meta name="og:url" content="https://sdlogisticlinks.web.app/" />
+  <meta name="og:image" content="icons/Icon-maskable-512.png" />
+  <meta name="og:site_name" content="Logistic Links" />
+  <meta name="og:description" content="Основные ссылки для логистики" />
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="SD Logistic Links">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="icons/Icon-192.png">
+  <link rel="apple-touch-icon" sizes="384x384" href="icons/Icon-384.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="icons/Icon-512.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-time', function () {
+        navigator.serviceWorker.register('/flutter_service_worker.js?v=<timestamp>');
+      });
+    }
+  </script>
+  </script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyA5V729QgZEMlO3OzmgSLM3FwY1409gCYI",
+      authDomain: "sdlogisticlinks.firebaseapp.com",
+      projectId: "sdlogisticlinks",
+      storageBucket: "sdlogisticlinks.firebasestorage.app",
+      messagingSenderId: "279783741545",
+      appId: "1:279783741545:web:aa3986d2baf514b5616af8",
+      measurementId: "G-HGXBYHSHSV"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+  <!-- Capture PWA install prompt event -->
+  <!-- <script>
+    let deferredPrompt;
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      deferredPrompt = e;
+    });
+
+    function promptInstall() {
+      deferredPrompt.prompt();
+    }
+
+    // Listen for app install event
+    window.addEventListener('appinstalled', () => {
+      deferredPrompt = null;
+      appInstalled();
+    });
+
+    // Track how PWA was launched (either from browser or as PWA)
+    function getLaunchMode() {
+      const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
+      if (deferredPrompt) hasPrompt();
+      if (document.referrer.startsWith('android-app://')) {
+        appLaunchedAsTWA();
+      } else if (navigator.standalone || isStandalone) {
+        appLaunchedAsPWA();
+      } else {
+        window.appLaunchedInBrowser();
+      }
+    }
+  </script>-->
+</body>
+
+</html>
