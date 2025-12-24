@@ -1,21 +1,18 @@
-<<<<<<< HEAD
 # LCP
-Logistic Common Place
-=======
-# logilinks
 
-SD Logistic Links.
+**Logistic Common Place** — PWA-приложение, реализованное на **Flutter**, цель которого — объединить все нужные ссылки для работника склада в одном месте.  
+Используется на специальных заводских терминалах на базе **Android**.
 
-## Getting Started
+Ссылки ведут на инструменты в **SAP**, например:
+- **EWM**
+- **Мобильное комплектование**
+- **Мобильная приёмка**
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> 9efcd5f (Main coomit)
+<p align="left">
+  <img src="web/screenshots/mobile.png" width="250" />
+  <img src="web/screenshots/desktop.png" width="250" />
+</p>
